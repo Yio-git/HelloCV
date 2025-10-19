@@ -4,15 +4,26 @@
 
 项目结构
 CryptoTool/
+
+
 ├── include/        # 头文件目录
+
 │   ├── Crypto.h    # 加密解密逻辑类
+
 │   ├── FileHandler.h  # 文件操作类
+
 │   └── Menu.h      # 命令行菜单类
+
 ├── src/            # 源文件目录
+
 │   ├── Crypto.cpp
+
 │   ├── FileHandler.cpp
+
 │   ├── Menu.cpp
+
 │   └── main.cpp    # 主程序入口
+
 └── CMakeLists.txt  # CMake 构建配置文件
 技术栈
 
